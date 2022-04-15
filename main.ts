@@ -33,7 +33,7 @@ namespace LCD1602A_4bit {
      * @param cursor is a bool to enable the cursor
      * @param blink is a bool to enable blinking above the cursor
      */
-    //% blockId="LCD1602A_4BIT_INIT" block="Start LCD met cursor (aan=1, uit=0) en knipper (aan=1, uit=0)"
+    //% blockId="LCD1602A_4BIT_INIT" block="Start LCD met cursor %cursor (aan=1, uit=0) en knipper %blink (aan=1, uit=0)"
     //% weight=100 blockGap=8
     export function init(cursor: number, blink: number) {
         pins.digitalWritePin(RS, 0)
