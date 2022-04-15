@@ -1,0 +1,17 @@
+{
+  "name": "LCD1602_4bit",
+  "version": "0.0.0",
+  "description": "makecode LCD1602 4bit extension for micro:bit",
+  "license": "MIT",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "README.md",
+    "main.ts"
+  ],
+  "testFiles": [
+    "test.ts"
+  ],
+  "public": true
+}
