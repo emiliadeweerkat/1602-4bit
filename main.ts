@@ -1,3 +1,5 @@
+// https://www.sparkfun.com/datasheets/LCD/HD44780.pdf
+// https://www.hobbyelectronica.nl/product/lcd1602-display-microbit/
 let RS = DigitalPin.P8
 let EN = DigitalPin.P2
 let D4 = DigitalPin.P16
